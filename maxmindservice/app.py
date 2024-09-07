@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from maxmind import get_location_from_coordinates
+from maxmindservice.maxmind import get_location_from_coordinates
 
 # Create the FastAPI app
 app = FastAPI()
