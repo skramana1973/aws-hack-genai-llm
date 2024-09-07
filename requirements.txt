@@ -1,0 +1,6 @@
+geoip2
+geopy
+fastapi 
+uvicorn
+
+
