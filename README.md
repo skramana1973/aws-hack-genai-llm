@@ -30,6 +30,18 @@ python3 -m uvicorn maxmindservice.app:app --reload
 #Example 
 curl http://127.0.0.1:8000/location?lat=37.7749&lon=-122.4194
 
+curl https://fly.io/apps/aws-hack-genai-llm/location?lat=37.7749&lon=-122.4194
+
+curl https://aws-hack-genai-llm.fly.dev/location?lat=37.7749&lon=-122.4194
+
+curl https://aws-hack-genai-llm.fly.dev/location?lat\=37.7749\&lon\=-122.4194
+
+ngrok config add-authtoken YOUR_AUTHTOKEN
+
+curl  https://b1b9-12-94-132-170.ngrok-free.app/location?lat\=37.7749\&lon\=-122.4194
+
+zip -r lambda_function.zip .
+
 ```
 
 
