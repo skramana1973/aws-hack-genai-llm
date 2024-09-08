@@ -1,4 +1,4 @@
-# This is a GEO Location Detailed service taking Longitude and Latitude as an Input and provides detailed Address/Location using MaxMind Serviuces.
+# This is a GEO Location Detailed service taking Longitude and Latitude as an Input and provides detailed Address/Location using MaxMind Services.
 
 
 # aws-hack-genai-llm
